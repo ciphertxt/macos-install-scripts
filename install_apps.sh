@@ -23,12 +23,14 @@ brew install --cask \
   eul \
   ffmpeg \
   iina \
+  intune-company-portal \
   iterm2 \
   itsycal \
   keka \
   loopback \
   mas \
   microsoft-edge \
+  microsoft-office \
   monitorcontrol \
   numi \
   obs \
