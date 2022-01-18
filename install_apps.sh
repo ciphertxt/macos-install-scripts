@@ -42,6 +42,7 @@ brew install --cask \
   obs-ndi \
   parallels \
   rocket \
+  spotify \
   visual-studio-code \
   webex \
   zoom
