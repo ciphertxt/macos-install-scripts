@@ -9,7 +9,10 @@ sudo chown -R $(whoami) $(brew --prefix)/*
 # 2. Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# VS Code installer
+# Regular installs
+brew install azure-cli
+
+# Cask installs
 brew install --cask \
   1password \
   aerial \
@@ -132,6 +135,10 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 # Show status and path bar in Finder 
 defaults write com.apple.finder ShowStatusBar -bool true
 defaults write com.apple.finder ShowPathbar -bool true
+
+# Enable tap-to-click
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
 killall Finder
 
