@@ -10,7 +10,11 @@ sudo chown -R $(whoami) $(brew --prefix)/*
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Regular installs
-brew install azure-cli
+brew install azure-cli \
+  atomicparsley \
+  ffmpeg \
+  mas \
+  yt-dlp/taps/yt-dlp
 
 # Cask installs
 brew install --cask \
@@ -18,20 +22,17 @@ brew install --cask \
   aerial \
   alfred \
   alt-tab \ 
-  appcleaner \
-  atomicparsley \ 
+  appcleaner \ 
   audio-hijack \
   cheatsheet \
   dropbox \
   eul \
-  ffmpeg \
   iina \
   intune-company-portal \
   iterm2 \
   itsycal \
   keka \
   loopback \
-  mas \
   microsoft-edge \
   microsoft-office \
   monitorcontrol \
@@ -41,7 +42,6 @@ brew install --cask \
   rocket \
   visual-studio-code \
   webex \
-  yt-dlp/taps/yt-dlp \
   zoom
   
 # Extra (unofficial) Homebrew stuff
