@@ -40,6 +40,7 @@ brew install --cask \
   numi \
   obs \
   obs-ndi \
+  parallels \
   rocket \
   visual-studio-code \
   webex \
