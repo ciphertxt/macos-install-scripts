@@ -29,6 +29,7 @@ brew install --cask \
   cheatsheet \
   discord \
   dropbox \
+  epic-games \
   eul \
   iina \
   intune-company-portal \
