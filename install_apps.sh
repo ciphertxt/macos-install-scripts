@@ -226,5 +226,12 @@ defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 killall Finder
 
 # Note: Can't be installed automatically
+echo "Downloading other installers for manual installation..."
+cd ~/Downloads
+
 # Waves Central - https://www.waves.com/downloads/central
-# WindowMirror
+curl -O "https://cf-installers.waves.com/WavesCentral/Install_Waves_Central.dmg"
+# Mac Mirror flip utility
+curl -O "https://telepromptermirror.com/wp-content/uploads/2021/06/mac-mirror-flip.zip"
+
+echo "Complete!"
