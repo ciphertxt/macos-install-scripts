@@ -37,6 +37,7 @@ brew install --cask \
   obs-ndi \
   rocket \
   visual-studio-code \
+  webex \
   yt-dlp/taps/yt-dlp \
   zoom
   
