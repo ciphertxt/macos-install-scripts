@@ -24,6 +24,7 @@ brew install --cask \
   alt-tab \ 
   appcleaner \ 
   audio-hijack \
+  azure-data-studio \
   cheatsheet \
   dropbox \
   eul \
