@@ -72,28 +72,25 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 # App Store Installs
 
-# AdGuard for Safari
-mas install 1440147259
-# Amazon Prime Video
-mas install 545519333
-# Amphetamine
-mas install 937984704
-# Apple Developer
-mas install 640199958
-# AudioSwitcher
-mas install 561712678
-# BetterSnapTool
-mas install 417375580
-# Boop
-mas install 1518425043
-# Controller for HomeKit
-mas install 1198176727
-# Darkroom 
-mas install 953286746
-# Deliveries
-mas install 290986013
-# Fotor
-mas install 503039729
+# get Apple ID
+echo ""
+echo "Enter AppleID to signin to Mac App Store:"
+read -p "  AppleID (john@foo.com): " APPLEID
+
+# make sure signed into Mac App Store
+mas signin $APPLEID
+
+mas install 1440147259 # AdGuard for Safari
+mas install 545519333 # Amazon Prime Video
+mas install 937984704 # Amphetamine
+mas install 640199958 # Apple Developer
+mas install 561712678 # AudioSwitcher
+mas install 417375580 # BetterSnapTool
+mas install 1518425043 # Boop
+mas install 1198176727 # Controller for HomeKit
+mas install 953286746 # Darkroom
+mas install 290986013 # Deliveries
+mas install 503039729 # Fotor
 # GarageBand
 mas install 682658836
 # Hush
