@@ -25,6 +25,7 @@ brew install --cask \
   appcleaner \ 
   audio-hijack \
   azure-data-studio \
+  cakebrew \
   cheatsheet \
   discord \
   dropbox \
@@ -44,6 +45,7 @@ brew install --cask \
   parallels \
   rocket \
   spotify \
+  vanilla \
   visual-studio-code \
   webex \
   zoom
