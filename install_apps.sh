@@ -62,6 +62,9 @@ brew install --cask \
   qlcolorcode \
   quicklook-json \
   quicklook-csv
+  
+# Clean up
+brew cleanup
 
 # Lay down oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
