@@ -26,6 +26,7 @@ brew install --cask \
   audio-hijack \
   azure-data-studio \
   cheatsheet \
+  discord \
   dropbox \
   eul \
   iina \
