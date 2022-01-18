@@ -37,6 +37,7 @@ brew install --cask \
   itsycal \
   keka \
   loopback \
+  microsoft-azure-storage-explorer \
   microsoft-edge \
   microsoft-office \
   monitorcontrol \
