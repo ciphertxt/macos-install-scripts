@@ -51,6 +51,7 @@ brew install --cask \
   parallels \
   rocket \
   spotify \
+  subler \
   vanilla \
   visual-studio-code \
   webex \
