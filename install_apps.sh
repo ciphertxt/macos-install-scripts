@@ -15,6 +15,7 @@ sudo chown -R $(whoami) $(brew --prefix)/*
 echo "Installing brew formulae..."
 brew install azure-cli \
   atomicparsley \
+  exiftool \
   ffmpeg \
   mas \
   yt-dlp/taps/yt-dlp
