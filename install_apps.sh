@@ -91,6 +91,7 @@ read -p "  AppleID (john@foo.com): " APPLEID
 # make sure signed into Mac App Store
 mas signin $APPLEID
 
+mas install 1569813296 # 1Password for Safari
 mas install 1440147259 # AdGuard for Safari
 mas install 545519333 # Amazon Prime Video
 mas install 937984704 # Amphetamine
@@ -101,17 +102,21 @@ mas install 1518425043 # Boop
 mas install 1198176727 # Controller for HomeKit
 mas install 953286746 # Darkroom
 mas install 290986013 # Deliveries
+mas install 984929789 # Duplicate Photos Finder
 mas install 503039729 # Fotor
 mas install 682658836 # GarageBand
 mas install 1544743900 # Hush
 mas install 1136220934 # Infuse 7
+mas install 1558453954 # Keyword Search
 mas install 472226235 # LanScan
 mas install 149332648 # Levelator
 mas install 1480068668 # Messenger
 mas install 1295203466 # MS Remote Desktop
+mas install 463362050 # Photosweeper
 mas install 407963104 # Pixelmator Classic
 mas install 1070963477 # Podcast Chapters
 mas install 1514817810 # Poolsuite FM
+mas install 1611378436 # Pure Paste
 mas install 598853070 # Quick Camera
 mas install 957810159 # Raindrop.io for Safari
 mas install 1529448980 # Reeder 5
@@ -124,6 +129,7 @@ mas install 1482454543 # Twitter
 mas install 1284863847 # Unsplash Wallpapers 
 mas install 1591303229 # Vinegar
 mas install 1059074180 # WeatherBug
+mas install 1621370168 # WorldWideWeb
 
 # Fonts!
 echo "Installing fonts..."
