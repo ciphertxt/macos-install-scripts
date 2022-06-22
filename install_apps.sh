@@ -52,6 +52,7 @@ brew install --cask \
   numi \
   obs \
   obs-ndi \
+  obsidian \
   parallels \
   rocket \
   spotify \
@@ -63,7 +64,7 @@ brew install --cask \
   
 # Extra (unofficial) Homebrew stuff
 echo "Installing additional cask drivers..."
-brew install --cask brew tap homebrew/cask-drivers
+brew tap homebrew/cask-drivers
 brew install --cask elgato-control-center \
   elgato-camera-hub \
   elgato-stream-deck
