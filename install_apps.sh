@@ -6,8 +6,8 @@ xcode-select --install
 
 # Homebrew
 echo "Installing Homebrew..."
-# 1. Fix perms
-sudo chown -R $(whoami) $(brew --prefix)/*
+# 1. Fix perms // NOTE: Removed for M1 Mac
+# sudo chown -R $(whoami) $(brew --prefix)/*
 # 2. Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
