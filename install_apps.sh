@@ -245,5 +245,7 @@ cd ~/Downloads
 curl -O "https://cf-installers.waves.com/WavesCentral/Install_Waves_Central.dmg"
 # Mac Mirror flip utility
 curl -O "https://telepromptermirror.com/wp-content/uploads/2021/06/mac-mirror-flip.zip"
+# NDI Tools
+curl -O "https://downloads.ndi.tv/Tools/NDIToolsInstaller.pkg"
 
 echo "Complete!"
