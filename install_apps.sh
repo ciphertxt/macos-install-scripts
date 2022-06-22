@@ -4,6 +4,9 @@
 echo "Installling XCode build tools..."
 xcode-select --install
 
+echo "Installing Rosetta..."
+/usr/sbin/softwareupdate –install-rosetta –agree-to-license
+
 # Homebrew
 echo "Installing Homebrew..."
 # 1. Fix perms // NOTE: Removed for M1 Mac
