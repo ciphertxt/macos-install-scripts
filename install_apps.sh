@@ -5,7 +5,7 @@ echo "Installling XCode build tools..."
 xcode-select --install
 
 echo "Installing Rosetta..."
-/usr/sbin/softwareupdate –install-rosetta –agree-to-license
+/usr/sbin/softwareupdate -–install-rosetta -–agree-to-license
 
 # Homebrew
 echo "Installing Homebrew..."
