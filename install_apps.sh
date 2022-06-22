@@ -122,8 +122,8 @@ mas install 1070963477 # Podcast Chapters
 mas install 1514817810 # Poolsuite FM
 mas install 1611378436 # Pure Paste
 mas install 598853070 # Quick Camera
-mas install 957810159 # Raindrop.io for Safari
 mas install 1529448980 # Reeder 5
+mas install 1549370672 # Save to Raindrop.io
 mas install 1015043880 # Shut Up Comment Blocker
 mas install 413965349 # Soulver 2
 mas install 1176895641 # Spark
