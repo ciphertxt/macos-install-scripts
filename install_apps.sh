@@ -138,6 +138,7 @@ mas install 1621370168 # WorldWideWeb
 # M1 / Apple Silicon Apps
 echo "Installing M1 apps..."
 mas install 888422857 # Overcast
+brew install --cask topnotch # TopNotch
 
 # Fonts!
 echo "Installing fonts..."
