@@ -109,6 +109,7 @@ mas install 290986013 # Deliveries
 mas install 984929789 # Duplicate Photos Finder
 mas install 503039729 # Fotor
 mas install 682658836 # GarageBand
+mas install 1452453066 # Hidden Bar
 mas install 1544743900 # Hush
 mas install 1136220934 # Infuse 7
 mas install 1558453954 # Keyword Search
