@@ -135,6 +135,10 @@ mas install 1591303229 # Vinegar
 mas install 1059074180 # WeatherBug
 mas install 1621370168 # WorldWideWeb
 
+# M1 / Apple Silicon Apps
+echo "Installing M1 apps..."
+mas install 888422857 # Overcast
+
 # Fonts!
 echo "Installing fonts..."
 cd ~/Library/Fonts
