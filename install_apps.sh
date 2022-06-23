@@ -44,6 +44,7 @@ brew install --cask \
   iterm2 \
   itsycal \
   keka \
+  keyboardcleantool \
   loopback \
   microsoft-azure-storage-explorer \
   microsoft-edge \
