@@ -57,6 +57,7 @@ brew install --cask \
   parallels \
   rocket \
   spotify \
+  stats \
   subler \
   vanilla \
   visual-studio-code \
