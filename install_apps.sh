@@ -56,7 +56,6 @@ brew install --cask \
   obs-ndi \
   obsidian \
   parallels \
-  quiet-reader \
   rocket \
   spotify \
   stats \
