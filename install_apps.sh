@@ -57,6 +57,7 @@ brew install --cask \
   obsidian \
   parallels \
   rocket \
+  rode-central \
   spotify \
   stats \
   subler \
